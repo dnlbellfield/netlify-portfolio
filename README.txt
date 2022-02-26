@@ -1,33 +1,39 @@
-# My Awesome Project
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+# JavaScript- 90 Day Fiance Couple Picker
+A couple / background picker with JavaScript DOM manipulation
 
-![alt tag](http://placecorgi.com/1200/650)
+**Link to project:** https://90daypicker.netlify.app/
 
+![alt tag](https://user-images.githubusercontent.com/47239035/155676336-1ffe32c3-43b0-4331-ba55-d4b460954764.png)
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** HTML, CSS, JavaScript 
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
-
-## Optimizations
-*(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+Through JavaScript we have the ability to manipulate the DOM. Every single time you click on a button, the app is going to render the change through javascript and can see the change to the HTML in the browser.
 
 ## Lessons Learned:
+Front end is fun!!!
+Whats Happening? We create a list in our HTML to hold our "couples".
+In our JS file we add an onclick event for each list item.
+Each list item will be a couple you can "pick".
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+when you click a list item (a couples name) something funny happens
 
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
+ex: document.getElementById('kim-usman').onclick = kimUsman 
 
-**Palettable:** https://github.com/alecortega/palettable
+A function should be listening for that 'click' event and then run a function that changes the background, adds an image of the couple, the couples name, location, age, and story. These changes will render to the page after you click an item in the list.
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
+I hope you found it entertaining or fun. There is a lot to clean up / refactor, but I wanted to get something up in one night.
 
-**Patch Panel:** https://github.com/alecortega/patch-panel
+mdn references 
+
+The DOM API allows for  quick and efficient builds, it's a great tool for frontend/ UI experience!
+The Document Object Model (DOM) connects web pages to scripts or programming languages by representing the structure of a document—such as the HTML representing a web page—in memory. Usually it refers to JavaScript.
+
+A document containing HTML is described using the Document interface, which is extended by the HTML specification to include various HTML-specific features. In particular, the Element interface is enhanced to become HTMLElement and various subclasses, each representing one of (or a family of closely related) elements.
+
+
+
 
 
 
